@@ -13,4 +13,22 @@ public class _206 {
         }
         return preNode;
     }
+
+    /*前序遍历*/
+    public static void reverseListDFS1(ListNode head) {
+        if (head == null) return;
+        ListNode pre = null;
+        ListNode tmp = head.next;
+        head.next = pre;
+        reverseListDFS1(tmp);
+    }
+
+    /*todo 难！后序遍历*/
+    public ListNode reverseListDFS2(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode cur = reverseListDFS2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return cur;
+    }
 }
