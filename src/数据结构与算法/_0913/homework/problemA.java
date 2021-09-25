@@ -1,4 +1,4 @@
-package 作业._0913.homework;
+package 数据结构与算法._0913.homework;
 
 import java.util.Scanner;
 
@@ -50,7 +50,7 @@ public class problemA {
                 if (connected(x, y)) {//如果已经联通
                     isOK = false;  //有环
                 } else {
-                    union(x, y); //联通
+                    union(x, y);
                 }
                 root = find(x);
             }

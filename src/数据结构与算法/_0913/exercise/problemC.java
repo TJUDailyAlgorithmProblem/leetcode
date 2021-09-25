@@ -1,4 +1,4 @@
-package 作业._0913.exercise;
+package 数据结构与算法._0913.exercise;
 
 import java.util.Scanner;
 /*
