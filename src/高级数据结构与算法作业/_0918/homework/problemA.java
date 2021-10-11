@@ -23,7 +23,7 @@ public class problemA {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int k = 0; //k => id前后顺序
+        int k = 0; //id
         Comparator<Node> cmp = new Comparator<Node>() {
             public int compare(Node a, Node b) {
                 if (a.level != b.level) {

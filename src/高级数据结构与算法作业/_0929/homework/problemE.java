@@ -1,11 +1,16 @@
-package 高级数据结构与算法作业;
-
+package 高级数据结构与算法作业._0929.homework;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+/**
+ * Description:
+ *
+ * @author zwill
+ * @date 2021/9/30 19:43
+ */
+public class problemE {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int cases = scanner.nextInt();

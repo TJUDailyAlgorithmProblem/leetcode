@@ -1,42 +1,5 @@
 package 并查集;
 
-//import java.util.HashMap;
-//import java.util.List;
-//
-//public class _721 {
-//    public List<List<String>> accountsMerge(List<List<String>> accounts) {
-//
-//    }
-//}
-//
-//// 并查集
-//class UnionFind {
-//    HashMap<String, List<String>> father = new HashMap<>();
-//
-//    public UnionFind(List<List<String>> accounts) {
-//        for (List<String> account : accounts) {
-//            List<String> tmp = null;
-//            for (int i = 1; i < account.size(); i++) {
-//                tmp.add(account.get(i));
-//            }
-//            father.put(account.get(0), tmp);
-//        }
-//    }
-//
-//    public List<String> find(String name) {
-//        return father.get(name);
-//    }
-//
-//    public void union(List<String> x, List<String> y) {
-//        for (int i = 0; i < x.size(); i++) {
-//            for (int j = 0; j < y.size(); j++) {
-//                if (x.get(i).equals(y.get(j))) {
-//                    father.
-//                }
-//            }
-//        }
-//    }
-//}
 
 import java.util.*;
 
